@@ -1,1 +1,7 @@
 Puts the link_to_function back in a non-UJS way. Handy if you're trying to save time doing a Rails 3 upgrade.
+
+Just...
+
+gem 'link_to_function_helper'
+
+.. in your Gemfile is required. It is mixed in if ActionController is defined.
